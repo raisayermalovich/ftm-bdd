@@ -1,2 +1,12 @@
 {
+	"TEST-001": {
+		"type": "Internal", 
+		"assertionPattern": ".*Visual check.*",
+		"storyPattern": ".*WithKnownIssue.*",
+		"scenarioPattern": ".*UI controls validation.*",
+		"stepPattern": ".*When I COMPARE_AGAINST baseline with `testBaseline3`.*",
+		"dynamicPatterns": {
+			"currentPageUrl": ".*trello.com/create-first-board.*"
+		}
+	}
 }

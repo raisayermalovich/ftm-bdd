@@ -1,0 +1,6 @@
+Composite: When I confirm $email trello account
+When I enter `<email>` in field located `By.xpath(//input[@name='name'])`
+When I click on element located `By.xpath(//button[@type='submit'])`
+When I click on element located `By.xpath(//span[text()='Trello Account Confirmation'])`
+When I click on element located `By.xpath(//a[text()='Plain Text'])`
+When I click on element located `By.xpath(//a[contains(., 'https://trello.com/confirm?')])`
